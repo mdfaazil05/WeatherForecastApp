@@ -118,13 +118,13 @@ const Compare = () => {
                     ml:"7%",
                     borderRadius:"10px"}}>
                         <Typography variant="h2" sx={{mt:"10%"}}>
-                        {WeatherData?.location?.name}
+                        {WeatherData.location.name}
                         </Typography>
                         <Typography variant="h4">
-                        {WeatherData?.current?.temp_c}°C
+                        {WeatherData.current.temp_c}°C
                         </Typography>
                         <Typography variant="h3">
-                            The weather feels like {WeatherData?.current?.feelslike_c}°C
+                            This weather {WeatherData.current.feelslike_c}°C
                         </Typography>
                         <Grid container sx={{mt:'1%',justifyContent:"space-evenly"}}>
           <Grid item xs={12} sm={6} md={2} >
